@@ -1,0 +1,19 @@
+{
+  "name": "twit-to-slack",
+  "version": "1.0.0",
+  "description": "twit to slack",
+  "main": "find-twit.js",
+  "scripts": {
+    "start": "node find-twit.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Archana",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/events-api": "^2.3.4",
+    "@slack/web-api": "^5.13.0",
+    "axios": "^0.23.0",
+    "esm": "^3.2.25",
+    "twitter": "^1.7.1"
+  }
+}
